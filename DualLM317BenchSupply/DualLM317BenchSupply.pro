@@ -1,4 +1,4 @@
-update=3/16/2014 12:15:20 AM
+update=3/16/2014 11:41:07 AM
 version=1
 last_client=kicad
 [cvpcb]
@@ -50,7 +50,7 @@ NetFmtName=
 RptD_X=0
 RptD_Y=100
 RptLab=1
-LabSize=60
+LabSize=40
 [eeschema/libraries]
 LibName1=resistors_PL
 LibName2=switches_PL
