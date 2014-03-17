@@ -1,49 +1,49 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/16/2014 10:43:32 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/17/2014 12:17:13 AM
 
 BeginCmp
-TimeStamp = /53255526;
+TimeStamp = /53268930;
 Reference = C101;
 ValeurCmp = 0.1uF;
 IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5311573B;
+TimeStamp = /53268786;
 Reference = C102;
 ValeurCmp = 1000uF;
 IdModule  = ELCAP_2_52_V;
 EndCmp
 
 BeginCmp
-TimeStamp = /5311574A;
+TimeStamp = /53268CD2;
 Reference = C103;
 ValeurCmp = 1uF;
 IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /53116116;
+TimeStamp = /53268E70;
 Reference = C104;
 ValeurCmp = 10uF;
 IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /5311632D;
+TimeStamp = /53269020;
 Reference = C105;
 ValeurCmp = 1uF;
 IdModule  = C1V7;
 EndCmp
 
 BeginCmp
-TimeStamp = /53264954;
+TimeStamp = /53268218;
 Reference = C106;
 ValeurCmp = 0.1uF;
 IdModule  = C2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5326428D;
+TimeStamp = /53268227;
 Reference = C107;
 ValeurCmp = 10uF;
 IdModule  = C1V7;
@@ -57,10 +57,10 @@ IdModule  = BARREL_JACK_21x55;
 EndCmp
 
 BeginCmp
-TimeStamp = /531156EE;
+TimeStamp = /5326B477;
 Reference = D101;
 ValeurCmp = LED;
-IdModule  = LED-5MM;
+IdModule  = LED_5MM;
 EndCmp
 
 BeginCmp
@@ -218,21 +218,21 @@ IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5325E539;
+TimeStamp = /5326AD65;
 Reference = SW101;
 ValeurCmp = SPDT;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /5325CCF9;
+TimeStamp = /5326AE64;
 Reference = SW102;
 ValeurCmp = SPDT;
 IdModule  = PIN_ARRAY_3X1;
 EndCmp
 
 BeginCmp
-TimeStamp = /53260847;
+TimeStamp = /5326AF75;
 Reference = SW103;
 ValeurCmp = SPDT;
 IdModule  = PIN_ARRAY_3X1;
@@ -246,23 +246,23 @@ IdModule  = pin_array_8x2;
 EndCmp
 
 BeginCmp
-TimeStamp = /53115585;
+TimeStamp = /5326A1C4;
 Reference = U101;
-ValeurCmp = LM317;
+ValeurCmp = 7805;
 IdModule  = TO-220_V_069B;
 EndCmp
 
 BeginCmp
-TimeStamp = /53115594;
+TimeStamp = /5326A2AB;
 Reference = U102;
 ValeurCmp = LM317;
 IdModule  = TO-220_V_069B;
 EndCmp
 
 BeginCmp
-TimeStamp = /53267364;
+TimeStamp = /5326A5B6;
 Reference = U103;
-ValeurCmp = 7805;
+ValeurCmp = LM317;
 IdModule  = TO-220_V_069B;
 EndCmp
 
