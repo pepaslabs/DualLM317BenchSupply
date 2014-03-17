@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:connectors_PL
 LIBS:displays_PL
 LIBS:resistors_PL
 LIBS:switches_PL
@@ -695,17 +696,6 @@ Wire Wire Line
 Wire Wire Line
 	5800 6300 5800 4200
 Connection ~ 5800 4200
-$Comp
-L BARREL_JACK CON101
-U 1 1 53267050
-P 2200 4300
-F 0 "CON101" H 2200 4550 60  0000 C CNN
-F 1 "BARREL_JACK" H 2200 4100 60  0000 C CNN
-F 2 "" H 2200 4300 60  0000 C CNN
-F 3 "" H 2200 4300 60  0000 C CNN
-	1    2200 4300
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	2500 4300 2600 4300
 Wire Wire Line
@@ -715,4 +705,15 @@ Wire Wire Line
 Connection ~ 2600 4400
 Wire Wire Line
 	3150 4200 2500 4200
+$Comp
+L BARREL_JACK CON101
+U 1 1 53265EFE
+P 2200 4300
+F 0 "CON101" H 2200 4500 40  0000 C CNN
+F 1 "BARREL_JACK" H 2200 4150 40  0000 C CNN
+F 2 "~" H 2200 4300 60  0000 C CNN
+F 3 "~" H 2200 4300 60  0000 C CNN
+	1    2200 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

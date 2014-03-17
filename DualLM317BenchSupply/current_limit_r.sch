@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:connectors_PL
 LIBS:displays_PL
 LIBS:resistors_PL
 LIBS:switches_PL
