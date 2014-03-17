@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/16/2014 9:27:06 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/16/2014 10:43:32 PM
 
 BeginCmp
 TimeStamp = /53255526;
@@ -11,7 +11,7 @@ BeginCmp
 TimeStamp = /5311573B;
 Reference = C102;
 ValeurCmp = 1000uF;
-IdModule  = C2V10;
+IdModule  = ELCAP_2_52_V;
 EndCmp
 
 BeginCmp
@@ -260,7 +260,7 @@ IdModule  = TO-220_V_069B;
 EndCmp
 
 BeginCmp
-TimeStamp = /532639FA;
+TimeStamp = /53267364;
 Reference = U103;
 ValeurCmp = 7805;
 IdModule  = TO-220_V_069B;

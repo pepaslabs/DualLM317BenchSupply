@@ -1,0 +1,72 @@
+PCBNEW-LibModule-V1  3/16/2014 10:56:55 PM
+# encoding utf-8
+Units mm
+$INDEX
+ELCAP_10_20_V
+ELCAP_20_52_V
+$EndINDEX
+$MODULE ELCAP_10_20_V
+Po 0 0 0 15 5326727B 00000000 ~~
+Li ELCAP_10_20_V
+Cd Electrolytic Capacitor, vertical, 0.1" pins, 0.2" body
+Kw CP
+Sc 0
+AR /5311573B
+Op 0 0 0
+T0 1.27 -1.397 0.635 0.635 0 0.127 N V 21 N "C***"
+T1 1.27 1.524 0.635 0.635 0 0.127 N V 21 N "Val**"
+DC 1.27 0 3.81 0 0.254 21
+$PAD
+Sh "1" R 2.2479 1.4986 0 0 0
+Dr 0.8128 -0.37465 0
+At STD N 00E0FFFF
+Ne 2 "N-0000010"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" O 2.2479 1.4986 0 0 0
+Dr 0.8128 0.37465 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 2.54 0
+$EndPAD
+$SHAPE3D
+Na "discret/c_vert_c2v10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE ELCAP_10_20_V
+$MODULE ELCAP_20_52_V
+Po 0 0 0 15 53266CE5 00000000 ~~
+Li ELCAP_20_52_V
+Cd Electrolytic Capacitor, vertical, 0.2" pins, 0.52" body
+Kw CP
+Sc 0
+AR /5311573B
+Op 0 0 0
+T0 2.54 2.54 1.016 1.016 0 0.2032 N V 21 N "C***"
+T1 2.54 -2.54 1.016 1.016 0 0.2032 N V 21 N "Val**"
+DC 2.54 0 9.144 0 0.254 21
+$PAD
+Sh "1" R 2.6289 1.7526 0 0 0
+Dr 1.016 -0.43815 0
+At STD N 00E0FFFF
+Ne 2 "N-0000010"
+Po 0 0
+$EndPAD
+$PAD
+Sh "2" O 2.6289 1.7526 0 0 0
+Dr 1.016 0.43815 0
+At STD N 00E0FFFF
+Ne 1 "GND"
+Po 5.08 0
+$EndPAD
+$SHAPE3D
+Na "discret/c_vert_c2v10.wrl"
+Sc 1 1 1
+Of 0 0 0
+Ro 0 0 0
+$EndSHAPE3D
+$EndMODULE ELCAP_20_52_V
+$EndLIBRARY

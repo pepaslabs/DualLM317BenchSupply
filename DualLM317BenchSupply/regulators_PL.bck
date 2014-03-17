@@ -1,0 +1,11 @@
+EESchema-DOCLIB  Version 2.0  Date: 3/16/2014 11:24:17 PM
+#
+$CMP 7805
+D +5V Linear Regulator
+$ENDCMP
+#
+$CMP LM317
+D Adjustable Positive Linear Regulator
+$ENDCMP
+#
+#End Doc Library
