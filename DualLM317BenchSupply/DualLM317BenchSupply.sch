@@ -43,7 +43,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "20 mar 2014"
+Date "21 mar 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -89,7 +89,7 @@ L POT RV101
 U 1 1 531160F8
 P 10650 5400
 F 0 "RV101" H 10650 5300 50  0000 C CNN
-F 1 "5k" H 10650 5400 50  0000 C CNN
+F 1 "4k7" H 10650 5400 50  0000 C CNN
 F 2 "~" H 10650 5400 60  0000 C CNN
 F 3 "~" H 10650 5400 60  0000 C CNN
 	1    10650 5400
@@ -344,8 +344,8 @@ Output Enable / Disable
 Connection ~ 11950 4200
 Wire Wire Line
 	6050 3500 6050 4200
-Text Notes 10600 4000 0    40   ~ 0
-330 & 5k = 20.2V max\n330 = 3.8mA ammeter error
+Text Notes 9850 5050 0    40   ~ 0
+330 & 4.7k = 19V max
 $Comp
 L GND #PWR010
 U 1 1 53264209
@@ -420,14 +420,8 @@ F 3 "~" H 12880 3400 60  0000 C CNN
 	1    12050 3000
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	11850 3100 12050 3100
-Wire Wire Line
-	12050 3000 11950 3000
-Wire Wire Line
-	11950 3000 11950 2900
-Text GLabel 11950 2900 1    40   Input ~ 0
-5VF
+Text GLabel 11850 2900 1    40   Input ~ 0
+5V
 $Comp
 L GND #PWR014
 U 1 1 53267BC5
@@ -488,8 +482,6 @@ Wire Wire Line
 	12050 3300 11950 3300
 Wire Wire Line
 	11950 3300 11950 4200
-Wire Wire Line
-	5350 4200 5350 7850
 Connection ~ 5350 4200
 Wire Wire Line
 	3250 4300 3350 4300
@@ -722,67 +714,6 @@ Wire Wire Line
 	12950 5650 13050 5650
 Wire Wire Line
 	13050 5650 13050 5950
-Text GLabel 12950 4800 3    40   Input ~ 0
-Vout-
-Text GLabel 11850 3200 3    40   Input ~ 0
-Vout-
-Wire Wire Line
-	6800 7950 6800 7850
-Wire Wire Line
-	6600 7850 6900 7850
-Wire Wire Line
-	6900 7850 6900 7750
-Connection ~ 6800 7850
-Text GLabel 6900 7750 1    40   Input ~ 0
-5VF
-Wire Wire Line
-	5350 7850 6000 7850
-Wire Wire Line
-	5800 7950 5800 7850
-Connection ~ 5800 7850
-Wire Notes Line
-	5600 7500 7150 7500
-Wire Notes Line
-	7150 7500 7150 8900
-Wire Notes Line
-	7150 8900 5600 8900
-Wire Notes Line
-	5600 8900 5600 7500
-Text Notes 5600 7475 0    60   ~ 0
-5VF Supply
-$Comp
-L C_CER C?
-U 1 1 532A79E0
-P 5800 8150
-F 0 "C?" H 5820 8210 30  0000 L BNN
-F 1 "0.1uF" H 5820 8090 30  0000 L TNN
-F 2 "~" H 5838 8000 30  0000 C CNN
-F 3 "~" H 5800 8150 60  0000 C CNN
-	1    5800 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L C_EL C?
-U 1 1 532A79E6
-P 6800 8150
-F 0 "C?" H 6820 8210 30  0000 L BNN
-F 1 "10uF" H 6820 8060 30  0000 L TNN
-F 2 "~" H 6838 8000 30  0000 C CNN
-F 3 "~" H 6800 8150 60  0000 C CNN
-	1    6800 8150
-	1    0    0    -1  
-$EndComp
-$Comp
-L 78L05 U?
-U 1 1 532A7B70
-P 6300 7900
-F 0 "U?" H 6100 8060 40  0000 L BNN
-F 1 "78L05" H 6500 7730 40  0000 R TNN
-F 2 "~" H 6300 7900 60  0000 C CNN
-F 3 "~" H 6300 7900 60  0000 C CNN
-	1    6300 7900
-	1    0    0    -1  
-$EndComp
 $Comp
 L 78L05 U?
 U 1 1 532A7BBB
@@ -794,26 +725,25 @@ F 3 "~" H 6300 6350 60  0000 C CNN
 	1    6300 6350
 	1    0    0    -1  
 $EndComp
-Text GLabel 6400 8550 3    40   Input ~ 0
-Vout-
+$Comp
+L GND #PWR?
+U 1 1 532B868B
+P 11850 3200
+F 0 "#PWR?" H 11850 3200 30  0001 C CNN
+F 1 "GND" H 11850 3130 30  0001 C CNN
+F 2 "" H 11850 3200 60  0000 C CNN
+F 3 "" H 11850 3200 60  0000 C CNN
+	1    11850 3200
+	1    0    0    -1  
+$EndComp
 Wire Wire Line
-	5800 8350 5800 8450
-Wire Wire Line
-	5800 8450 6800 8450
-Wire Wire Line
-	6800 8450 6800 8350
-Wire Wire Line
-	6300 8150 6300 8450
-Connection ~ 6300 8450
-Wire Wire Line
-	6400 8450 6400 8550
-Connection ~ 6400 8450
-Connection ~ 5350 6300
-Wire Wire Line
-	13050 4700 12950 4700
-Wire Wire Line
-	12950 4700 12950 4800
-Connection ~ 13050 4700
+	12050 3100 11850 3100
 Wire Wire Line
 	11850 3100 11850 3200
+Wire Wire Line
+	12050 3000 11850 3000
+Wire Wire Line
+	11850 3000 11850 2900
+Wire Wire Line
+	5350 6300 5350 4200
 $EndSCHEMATC
