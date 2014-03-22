@@ -89,7 +89,7 @@ L POT RV101
 U 1 1 531160F8
 P 10650 5400
 F 0 "RV101" H 10650 5300 50  0000 C CNN
-F 1 "5k" H 10650 5400 50  0000 C CNN
+F 1 "4k7" H 10650 5400 50  0000 C CNN
 F 2 "~" H 10650 5400 60  0000 C CNN
 F 3 "~" H 10650 5400 60  0000 C CNN
 	1    10650 5400
@@ -344,8 +344,8 @@ Output Enable / Disable
 Connection ~ 11950 4200
 Wire Wire Line
 	6050 3500 6050 4200
-Text Notes 10600 4000 0    40   ~ 0
-330 & 5k = 20.2V max\n330 = 3.8mA ammeter error
+Text Notes 9850 5050 0    40   ~ 0
+330 & 4.7k = 19V max
 $Comp
 L GND #PWR010
 U 1 1 53264209
