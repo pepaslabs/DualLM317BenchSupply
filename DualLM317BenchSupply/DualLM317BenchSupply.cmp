@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 12:58:06 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 3:59:49 PM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -67,14 +67,14 @@ BeginCmp
 TimeStamp = /53265FE1;
 Reference = D101;
 ValeurCmp = 1N4148;
-IdModule  = D3;
+IdModule  = DIODE_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /5327B26B;
 Reference = D102;
 ValeurCmp = 1N4148;
-IdModule  = D3;
+IdModule  = DIODE_3;
 EndCmp
 
 BeginCmp
@@ -88,14 +88,14 @@ BeginCmp
 TimeStamp = /53116272;
 Reference = D104;
 ValeurCmp = 1N4148;
-IdModule  = D3;
+IdModule  = DIODE_3;
 EndCmp
 
 BeginCmp
 TimeStamp = /53116214;
 Reference = D105;
 ValeurCmp = 1N4148;
-IdModule  = D3;
+IdModule  = DIODE_3;
 EndCmp
 
 BeginCmp
@@ -143,14 +143,14 @@ EndCmp
 BeginCmp
 TimeStamp = /5311679A;
 Reference = P101;
-ValeurCmp = CONN_1;
+ValeurCmp = Vout+;
 IdModule  = Banana_A;
 EndCmp
 
 BeginCmp
 TimeStamp = /531167A9;
 Reference = P102;
-ValeurCmp = CONN_1;
+ValeurCmp = Vout-;
 IdModule  = Banana_A;
 EndCmp
 
