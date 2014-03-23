@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Documents and Settings/Jason/My Documents/Dropbox/git/pepaslabs/DualLM317BenchSupply/DualLM317BenchSupply/DualLM317BenchSupply.sch")
-    (date "3/23/2014 12:58:01 PM")
+    (date "3/23/2014 3:16:53 PM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref RV101)
@@ -20,12 +20,12 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53116272))
     (comp (ref P101)
-      (value CONN_1)
+      (value Vout+)
       (libsource (lib conn) (part CONN_1))
       (sheetpath (names /) (tstamps /))
       (tstamp 5311679A))
     (comp (ref P102)
-      (value CONN_1)
+      (value Vout-)
       (libsource (lib conn) (part CONN_1))
       (sheetpath (names /) (tstamps /))
       (tstamp 531167A9))
