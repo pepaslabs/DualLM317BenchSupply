@@ -1,10 +1,10 @@
-EESchema-LIBRARY Version 2.3  Date: 3/23/2014 10:40:13 AM
+EESchema-LIBRARY Version 2.3  Date: 3/2/2014 9:53:57 AM
 #encoding utf-8
 #
 # Hole
 #
 DEF Hole H 0 30 N N 1 F N
-F0 "H" 0 55 30 H V C CNN
+F0 "H" 0 55 40 H V C CNN
 F1 "Hole" 0 -60 30 H V C CNN
 F2 "~" 0 0 60 H V C CNN
 F3 "~" 0 0 60 H V C CNN
