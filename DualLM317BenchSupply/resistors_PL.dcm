@@ -1,4 +1,14 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/22/2014 10:26:58 PM
+EESchema-DOCLIB  Version 2.0  Date: 3/23/2014 5:23:51 PM
+#
+$CMP POT
+D Potentionmeter
+K R
+$ENDCMP
+#
+$CMP POT_10t
+D Potentionmeter, 10-turn
+K R
+$ENDCMP
 #
 $CMP R_0W25
 D Resistor 1/4W 5% Carbon Film

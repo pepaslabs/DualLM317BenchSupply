@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 3:59:49 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 6:19:34 PM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -102,7 +102,7 @@ BeginCmp
 TimeStamp = /53267314;
 Reference = DS101;
 ValeurCmp = VOLTMETER;
-IdModule  = PIN_ARRAY_4x1;
+IdModule  = DVM036A;
 EndCmp
 
 BeginCmp
@@ -253,10 +253,10 @@ IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
-TimeStamp = /531160F8;
+TimeStamp = /532F65CA;
 Reference = RV101;
-ValeurCmp = 4k7;
-IdModule  = PIN_ARRAY_3X1;
+ValeurCmp = 4.7k;
+IdModule  = WXD3-13-2W_A;
 EndCmp
 
 BeginCmp
