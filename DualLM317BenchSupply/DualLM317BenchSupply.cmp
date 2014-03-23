@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 10:37:37 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 10:43:56 AM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -110,6 +110,34 @@ TimeStamp = /532A6A61;
 Reference = DS102;
 ValeurCmp = AMMETER_V;
 IdModule  = PIN_ARRAY_3X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /532F0654;
+Reference = H101;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /532F0663;
+Reference = H102;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /532F0672;
+Reference = H103;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
+EndCmp
+
+BeginCmp
+TimeStamp = /532F0681;
+Reference = H104;
+ValeurCmp = HOLE;
+IdModule  = hole_M3;
 EndCmp
 
 BeginCmp
