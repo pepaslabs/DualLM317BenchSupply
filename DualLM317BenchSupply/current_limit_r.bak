@@ -1,4 +1,5 @@
 EESchema Schematic File Version 2
+LIBS:mounting_holes_PL
 LIBS:LEDs_PL
 LIBS:regulators_PL
 LIBS:capacitors_PL

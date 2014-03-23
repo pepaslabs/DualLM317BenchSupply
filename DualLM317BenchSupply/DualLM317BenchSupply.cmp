@@ -1,52 +1,52 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 10:43:56 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 11:08:22 AM
 
 BeginCmp
 TimeStamp = /53268786;
 Reference = C101;
-ValeurCmp = 100uF;
-IdModule  = C2;
+ValeurCmp = 1000uF;
+IdModule  = ELCAP_20_52_V;
 EndCmp
 
 BeginCmp
 TimeStamp = /53268218;
 Reference = C102;
 ValeurCmp = 0.1uF;
-IdModule  = ELCAP_2_52_V;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53268930;
 Reference = C103;
 ValeurCmp = 0.1uF;
-IdModule  = C1V7;
+IdModule  = C2;
 EndCmp
 
 BeginCmp
 TimeStamp = /53268227;
 Reference = C104;
 ValeurCmp = 10uF;
-IdModule  = C1V7;
+IdModule  = ELCAP_10_20_V;
 EndCmp
 
 BeginCmp
 TimeStamp = /53268CD2;
 Reference = C105;
 ValeurCmp = 1uF;
-IdModule  = C1V7;
+IdModule  = ELCAP_10_20_V;
 EndCmp
 
 BeginCmp
 TimeStamp = /53268E70;
 Reference = C106;
 ValeurCmp = 10uF;
-IdModule  = C2;
+IdModule  = ELCAP_10_20_V;
 EndCmp
 
 BeginCmp
 TimeStamp = /53269020;
 Reference = C107;
 ValeurCmp = 1uF;
-IdModule  = C1V7;
+IdModule  = ELCAP_10_20_V;
 EndCmp
 
 BeginCmp

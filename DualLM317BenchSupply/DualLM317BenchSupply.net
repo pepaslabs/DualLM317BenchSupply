@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source "C:/Documents and Settings/Jason/My Documents/Dropbox/git/pepaslabs/DualLM317BenchSupply/DualLM317BenchSupply/DualLM317BenchSupply.sch")
-    (date "3/23/2014 10:41:38 AM")
+    (date "3/23/2014 11:08:17 AM")
     (tool "eeschema (2013-07-07 BZR 4022)-stable"))
   (components
     (comp (ref RV101)
@@ -65,7 +65,7 @@
       (sheetpath (names /) (tstamps /))
       (tstamp 53268227))
     (comp (ref C101)
-      (value 100uF)
+      (value 1000uF)
       (libsource (lib capacitors_PL) (part C_EL))
       (sheetpath (names /) (tstamps /))
       (tstamp 53268786))
