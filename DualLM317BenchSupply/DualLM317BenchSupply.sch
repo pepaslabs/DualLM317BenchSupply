@@ -238,11 +238,9 @@ S 7350 4000 850  400
 U 532536CD
 F0 "current_limit_r" 50
 F1 "current_limit_r.sch" 50
-F2 "IN" I L 7350 4200 60 
-F3 "OUT" O R 8200 4200 60 
+F2 "R_LIM+" I L 7350 4100 60 
+F3 "R_LIM-" O R 8200 4300 60 
 $EndSheet
-Wire Wire Line
-	7000 4200 7350 4200
 Connection ~ 7200 4200
 Wire Wire Line
 	8350 5000 8350 4200
@@ -267,8 +265,6 @@ Wire Wire Line
 Connection ~ 8450 4200
 Wire Wire Line
 	6050 3500 6750 3500
-Wire Wire Line
-	8200 4200 9650 4200
 Wire Notes Line
 	5600 2800 8600 2800
 Wire Notes Line
@@ -829,4 +825,16 @@ F 3 "~" H 1250 10350 60  0000 C CNN
 	1    1250 10350
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7000 4200 7300 4200
+Wire Wire Line
+	7300 4200 7300 4100
+Wire Wire Line
+	7300 4100 7350 4100
+Wire Wire Line
+	8250 4200 9650 4200
+Wire Wire Line
+	8250 4200 8250 4300
+Wire Wire Line
+	8250 4300 8200 4300
 $EndSCHEMATC

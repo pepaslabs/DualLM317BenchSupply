@@ -64,17 +64,6 @@ Connection ~ 4900 4900
 Wire Wire Line
 	4950 4650 4900 4650
 Connection ~ 4900 4650
-$Comp
-L SP6T SW201
-U 1 1 53253794
-P 3100 3800
-F 0 "SW201" H 3400 3850 40  0000 C CNN
-F 1 "SP6T" H 3400 3750 40  0000 C CNN
-F 2 "~" H 3100 4800 60  0000 C CNN
-F 3 "~" H 3100 4800 60  0000 C CNN
-	1    3100 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	4900 4750 4800 4750
 Wire Wire Line
@@ -174,10 +163,8 @@ Wire Wire Line
 Wire Wire Line
 	8350 2950 8350 3900
 Connection ~ 8350 3900
-Text HLabel 2550 3800 0    60   Input ~ 0
-IN
-Wire Wire Line
-	2550 3800 2850 3800
+Text HLabel 1800 2900 0    60   Input ~ 0
+R_LIM+
 Text Notes 7500 2950 0    60   ~ 0
 12.5mA
 Text Notes 7550 3300 0    60   ~ 0
@@ -191,7 +178,7 @@ Text Notes 7500 4200 0    60   ~ 0
 Text Notes 7500 4750 0    60   ~ 0
 500mA
 Text HLabel 8650 3900 2    60   Output ~ 0
-OUT
+R_LIM-
 $Comp
 L R_0W25_1PCT R201
 U 1 1 532CD909
@@ -324,4 +311,48 @@ F 3 "~" H 5200 5150 30  0000 C CNN
 	1    5200 5150
 	0    -1   -1   0   
 $EndComp
+$Comp
+L DP6T SW201
+U 1 1 532F16AF
+P 3100 3800
+F 0 "SW201" H 3400 3850 40  0000 C CNN
+F 1 "DP6T" H 3400 3750 40  0000 C CNN
+F 2 "~" H 3100 4800 60  0000 C CNN
+F 3 "~" H 3100 4800 60  0000 C CNN
+	1    3100 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 3700 3900 3650
+Wire Wire Line
+	3900 3900 3900 3950
+Wire Wire Line
+	3100 3300 2950 3300
+Wire Wire Line
+	2950 3300 2950 4300
+Wire Wire Line
+	2950 4300 3100 4300
+Wire Wire Line
+	3100 4300 3100 4250
+Connection ~ 3100 3300
+Wire Wire Line
+	3100 3350 3100 2900
+Wire Wire Line
+	3100 2900 1800 2900
+Wire Wire Line
+	3650 4250 3650 4400
+Wire Wire Line
+	3650 4400 2150 4400
+Wire Wire Line
+	2150 4400 2150 3350
+Wire Wire Line
+	2150 3350 2550 3350
+Wire Wire Line
+	3800 4100 3800 4500
+Wire Wire Line
+	3800 4500 2050 4500
+Wire Wire Line
+	2050 4500 2050 3500
+Wire Wire Line
+	2050 3500 2400 3500
 $EndSCHEMATC
