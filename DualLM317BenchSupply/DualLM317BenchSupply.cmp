@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/22/2014 10:25:59 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/22/2014 11:57:52 PM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -60,7 +60,7 @@ BeginCmp
 TimeStamp = /53265FE1;
 Reference = D101;
 ValeurCmp = 1N4148;
-IdModule  = LED_5MM;
+IdModule  = D3;
 EndCmp
 
 BeginCmp
@@ -74,7 +74,7 @@ BeginCmp
 TimeStamp = /5326B9A5;
 Reference = D103;
 ValeurCmp = LED;
-IdModule  = D3;
+IdModule  = LED_5MM;
 EndCmp
 
 BeginCmp
@@ -88,7 +88,7 @@ BeginCmp
 TimeStamp = /53116214;
 Reference = D105;
 ValeurCmp = 1N4148;
-IdModule  = ;
+IdModule  = D3;
 EndCmp
 
 BeginCmp
@@ -130,91 +130,91 @@ BeginCmp
 TimeStamp = /5325DB3F;
 Reference = R102;
 ValeurCmp = 330;
-IdModule  = ;
+IdModule  = R_AXIAL_0W25;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD909;
 Reference = R201;
 ValeurCmp = 100;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W25;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD925;
 Reference = R202;
 ValeurCmp = 100;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W25;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD92B;
 Reference = R203;
 ValeurCmp = 100;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W25;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD967;
 Reference = R204;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD96D;
 Reference = R205;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD973;
 Reference = R206;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD979;
 Reference = R207;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD933;
 Reference = R208;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD95B;
 Reference = R209;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD961;
 Reference = R210;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD94F;
 Reference = R211;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
 TimeStamp = /532536CD/532CD955;
 Reference = R212;
 ValeurCmp = 10;
-IdModule  = R1;
+IdModule  = R_AXIAL_0W5;
 EndCmp
 
 BeginCmp
