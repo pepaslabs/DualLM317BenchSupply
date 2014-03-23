@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 11:08:22 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 11:49:29 AM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -263,21 +263,21 @@ BeginCmp
 TimeStamp = /5326AD65;
 Reference = SW101;
 ValeurCmp = SPDT;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = M2012SS1W01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5326AE64;
 Reference = SW102;
 ValeurCmp = SPDT;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = M2012SS1W01;
 EndCmp
 
 BeginCmp
 TimeStamp = /5326AF75;
 Reference = SW103;
 ValeurCmp = SPDT;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = M2012SS1W01;
 EndCmp
 
 BeginCmp
