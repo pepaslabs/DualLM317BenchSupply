@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/23/2014 6:19:34 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/24/2014 12:40:29 AM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -99,7 +99,7 @@ IdModule  = DIODE_3;
 EndCmp
 
 BeginCmp
-TimeStamp = /53267314;
+TimeStamp = /532F70BB;
 Reference = DS101;
 ValeurCmp = VOLTMETER;
 IdModule  = DVM036A;
@@ -109,7 +109,7 @@ BeginCmp
 TimeStamp = /532A6A61;
 Reference = DS102;
 ValeurCmp = AMMETER_V;
-IdModule  = PIN_ARRAY_3X1;
+IdModule  = EBAY_AMMETER;
 EndCmp
 
 BeginCmp
