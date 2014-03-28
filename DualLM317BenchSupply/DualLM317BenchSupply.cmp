@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/24/2014 12:40:29 AM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/27/2014 8:00:22 PM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -106,7 +106,7 @@ IdModule  = DVM036A;
 EndCmp
 
 BeginCmp
-TimeStamp = /532A6A61;
+TimeStamp = /5334CAF5;
 Reference = DS102;
 ValeurCmp = AMMETER_V;
 IdModule  = EBAY_AMMETER;
