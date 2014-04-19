@@ -44,7 +44,7 @@ $Descr USLedger 17000 11000
 encoding utf-8
 Sheet 1 2
 Title ""
-Date "28 mar 2014"
+Date "19 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""
@@ -148,12 +148,8 @@ Wire Wire Line
 	5050 4700 5050 4800
 Wire Wire Line
 	9950 4900 10650 4900
-Connection ~ 10350 4200
-Connection ~ 10650 4200
-Connection ~ 10500 4200
 Wire Wire Line
 	11250 4200 11250 4300
-Connection ~ 11250 4200
 $Comp
 L GND #PWR06
 U 1 1 531163B7
@@ -284,8 +280,6 @@ Text Notes 7850 5975 0    60   ~ 0
 Status LED
 Wire Notes Line
 	11600 5950 11600 3400
-Wire Wire Line
-	10250 4200 12750 4200
 $Comp
 L R_0W25_1PCT R102
 U 1 1 5325DB3F
@@ -327,7 +321,6 @@ NoConn ~ 7400 3600
 NoConn ~ 4550 4300
 Text Notes 12800 4000 0    40   ~ 0
 Output Enable / Disable
-Connection ~ 12650 4200
 Wire Wire Line
 	6050 3500 6050 4200
 Text Notes 9850 5050 0    40   ~ 0
@@ -419,10 +412,6 @@ Wire Wire Line
 Text GLabel 12650 5250 1    40   Input ~ 0
 5V
 Wire Wire Line
-	10500 4200 10500 3850
-Wire Wire Line
-	10500 3850 10150 3850
-Wire Wire Line
 	9750 3850 9500 3850
 Wire Wire Line
 	9500 3850 9500 4200
@@ -453,10 +442,6 @@ Connection ~ 6250 4200
 Wire Wire Line
 	5850 4300 5850 4200
 Connection ~ 5850 4200
-Wire Wire Line
-	12750 3300 12650 3300
-Wire Wire Line
-	12650 3300 12650 4200
 Connection ~ 5350 4200
 Wire Wire Line
 	3250 4300 3350 4300
@@ -641,7 +626,7 @@ Wire Wire Line
 	7100 4850 6700 4850
 Connection ~ 6700 4850
 Wire Wire Line
-	10650 4300 10650 4200
+	10650 4200 10650 4300
 Wire Wire Line
 	10350 4300 10350 4200
 Wire Wire Line
@@ -919,4 +904,19 @@ F 3 "~" H 13950 5500 60  0000 C CNN
 	0    1    1    0   
 $EndComp
 Connection ~ 13950 5800
+Wire Wire Line
+	10250 4200 12750 4200
+Connection ~ 10350 4200
+Connection ~ 10650 4200
+Connection ~ 11250 4200
+Wire Wire Line
+	10150 3850 10500 3850
+Wire Wire Line
+	10500 3850 10500 4200
+Connection ~ 10500 4200
+Wire Wire Line
+	12750 3300 12650 3300
+Wire Wire Line
+	12650 3300 12650 4200
+Connection ~ 12650 4200
 $EndSCHEMATC
