@@ -1,11 +1,13 @@
 DualLM317BenchSupply
 ====================
 
-A simple adjustable voltage, current limited bench power supply using two LM317 regulators.
+A simple adjustable voltage, current limited bench power supply using two LM317 regulators (KiCAD schematic and PCB layout).
 
 ## Status:
 
-Currently, this design is schematic-only (no PCB designs yet).
+A small number of the v1 revision of the PCB design has been manufactured.  These had a manufacturing error which shorted the supply to ground, so v2 is in the works and will be sent to seeedstudio soon.
+
+Schematic:
 
 [View schematic as PDF](https://github.com/pepaslabs/DualLM317BenchSupply/raw/master/DualLM317BenchSupply_schematic.pdf).
 
