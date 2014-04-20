@@ -1,7 +1,11 @@
-EESchema-DOCLIB  Version 2.0  Date: 3/19/2014 10:51:31 PM
+EESchema-DOCLIB  Version 2.0  Date: 4/20/2014 2:06:36 AM
 #
 $CMP 7805
 D +5V Linear Regulator
+$ENDCMP
+#
+$CMP 7812
+D +12V Linear Regulator
 $ENDCMP
 #
 $CMP 78L05

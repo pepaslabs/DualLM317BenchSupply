@@ -1,12 +1,13 @@
 EESchema Schematic File Version 2
-LIBS:mounting_holes_PL
-LIBS:LEDs_PL
-LIBS:regulators_PL
+LIBS:switches_PL
 LIBS:capacitors_PL
 LIBS:connectors_PL
+LIBS:diodes_PL
 LIBS:displays_PL
+LIBS:LEDs_PL
+LIBS:mounting_holes_PL
+LIBS:regulators_PL
 LIBS:resistors_PL
-LIBS:switches_PL
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -44,7 +45,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 2
 Title ""
-Date "28 mar 2014"
+Date "20 apr 2014"
 Rev ""
 Comp ""
 Comment1 ""

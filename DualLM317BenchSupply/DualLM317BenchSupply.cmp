@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 3/27/2014 10:22:41 PM
+Cmp-Mod V01 Created by CvPcb (2013-07-07 BZR 4022)-stable date = 4/20/2014 2:44:45 AM
 
 BeginCmp
 TimeStamp = /53268786;
@@ -8,10 +8,10 @@ IdModule  = ELCAP_20_52_V;
 EndCmp
 
 BeginCmp
-TimeStamp = /53268218;
+TimeStamp = /53537CC6;
 Reference = C102;
-ValeurCmp = 0.1uF;
-IdModule  = C2;
+ValeurCmp = 1uF;
+IdModule  = ELCAP_10_20_V;
 EndCmp
 
 BeginCmp
@@ -61,6 +61,13 @@ TimeStamp = /5334CD6E;
 Reference = C109;
 ValeurCmp = 0.1uF;
 IdModule  = C2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53537D6C;
+Reference = C110;
+ValeurCmp = 1uF;
+IdModule  = ELCAP_10_20_V;
 EndCmp
 
 BeginCmp
@@ -276,7 +283,7 @@ EndCmp
 BeginCmp
 TimeStamp = /5334EE25;
 Reference = RV102;
-ValeurCmp = POT_25T;
+ValeurCmp = 10;
 IdModule  = 3296W;
 EndCmp
 
@@ -309,9 +316,9 @@ IdModule  = G3SR022-R;
 EndCmp
 
 BeginCmp
-TimeStamp = /532A7BBB;
+TimeStamp = /53537BDA;
 Reference = U101;
-ValeurCmp = 78L05;
+ValeurCmp = 7812;
 IdModule  = TO-220_V_069B;
 EndCmp
 
@@ -326,6 +333,13 @@ BeginCmp
 TimeStamp = /5326A5B6;
 Reference = U103;
 ValeurCmp = LM317;
+IdModule  = TO-220_V_069B;
+EndCmp
+
+BeginCmp
+TimeStamp = /53537BEF;
+Reference = U104;
+ValeurCmp = 7805;
 IdModule  = TO-220_V_069B;
 EndCmp
 
