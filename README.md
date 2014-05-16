@@ -21,6 +21,7 @@ Parts which I have created are released under the [MIT License](http://opensourc
 
 ## Board Revision v1
 
+A run of five v1 boards was ordered, but they suffered from a manufacturing defect which shorted a pad to ground.  Thus, this revision was never publicly for sale.
+
 * KiCAD files: https://github.com/pepaslabs/DualLM317BenchSupply/archive/v1.0.zip
 * BOM: https://docs.google.com/spreadsheets/d/1L0ausNb0WpCJjKkbzb2hiCHUUvhVTbAR-jT5hPuG_W0/edit?usp=sharing
-
