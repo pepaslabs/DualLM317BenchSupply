@@ -18,10 +18,11 @@ Parts which I have created are released under the [MIT License](http://opensourc
 ## Board Revision v2
 
 * KiCAD files: https://github.com/pepaslabs/DualLM317BenchSupply/archive/v2.0.zip
+* Assembly Instructions: https://www.evernote.com/shard/s301/sh/98922a1c-4789-4eff-8265-b3d52353a5f1/38aa0f58f0495949719a24fac0aefa83
 
 ## Board Revision v1
 
 A run of five v1 boards was ordered, but they suffered from a manufacturing defect which shorted a pad to ground.  Thus, this revision was never publicly for sale.
 
 * KiCAD files: https://github.com/pepaslabs/DualLM317BenchSupply/archive/v1.0.zip
-* BOM: https://docs.google.com/spreadsheets/d/1L0ausNb0WpCJjKkbzb2hiCHUUvhVTbAR-jT5hPuG_W0/edit?usp=sharing
+* Bill Of Materials: https://docs.google.com/spreadsheets/d/1L0ausNb0WpCJjKkbzb2hiCHUUvhVTbAR-jT5hPuG_W0/edit?usp=sharing
