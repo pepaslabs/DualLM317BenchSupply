@@ -5,7 +5,7 @@ A simple adjustable voltage, current limited bench power supply using two LM317 
 
 ## Status:
 
-A small number of the v1 revision of the PCB design has been manufactured.  These had a manufacturing error which shorted the supply to ground, so v2 is in the works and will be sent to seeedstudio soon.
+Revision 2 of the boards are being beta tested amongst some friends.  I'll probably put it up on tindie.com soon!
 
 Latest Schematic:
 
