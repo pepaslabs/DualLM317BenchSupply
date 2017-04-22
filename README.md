@@ -29,7 +29,7 @@ Revision 2 of the boards are being beta tested amongst some friends.  I'll proba
 
 ![](DualLM317BenchSupply/revisions/v2/top.png)
 
-![](DualLM317BenchSupply/revisions/v2/IMG1202.JPG)
+![](DualLM317BenchSupply/revisions/v2/IMG_1202.JPG)
 
 ## Board Revision v1
 
