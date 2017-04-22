@@ -27,6 +27,12 @@ Revision 2 of the boards are being beta tested amongst some friends.  I'll proba
 * Bill Of Materials: https://docs.google.com/spreadsheets/d/1UEHeVoLBXWML7s4iypZqZUHYBSBsEXaSeRBIaHcoUhg/edit?usp=sharing
 * Assembly Instructions: https://www.evernote.com/shard/s301/sh/98922a1c-4789-4eff-8265-b3d52353a5f1/38aa0f58f0495949719a24fac0aefa83
 
+![](DualLM317BenchSupply/revisions/v2/top.png)
+
+![](DualLM317BenchSupply/revisions/v2/top.png)
+
+![](DualLM317BenchSupply/revisions/v2/IMG1202.jpg)
+
 ## Board Revision v1
 
 A run of five v1 boards was ordered, but they suffered from a manufacturing defect which shorted a pad to ground.  Thus, this revision was never publicly for sale.
